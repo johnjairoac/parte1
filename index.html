@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<title>j&l shoppingstore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="nuestra empresa es ser líder en el área de Televentas, llegando a cada cliente a nivel nacional con un mejor servicio y llevando productos de primera calidad a la comodidad de su casa ofreciendo el mejor servicio y seguridad con pagos por internet.
+">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+
+		<!-- HEADER -->
+		<header>
+
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><span class="b1">j</span><span class="b2">&</span><span class="b3">l</span><span class="b4">s</span><span class="b5">h</span><span class="b6">o</span><span class="b7">p</span><span class="b8">i</span><span class="b9">n</span><span class="b10">g</span><span class="b11">s</span><span class="b12">t</span><span class="b13">o</span><span class="b14">r</span><span class="b15">e</span></a>
+					</div><!-- //LOGO -->
+
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Inicio</a></li>
+								<li class="scroll_btn"><a href="#about" >informacion</a></li>
+
+								<li class="scroll_btn"><a href="#news" >objetivos</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Contactos</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Bienvenidos</p>
+							<p class="title2 captionDelay4 FromLeft">Call</p>
+							<p class="title3 captionDelay2 FromLeft">Center</p>
+							<p class="title4 captionDelay7 FromLeft">TL ventas</p>
+						</div>
+
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Los</p>
+							<p class="title2 captionDelay2 FromBottom">mejores</p>
+							<p class="title3 captionDelay3 FromBottom">productos</p>
+							<p class="title4 captionDelay5 FromBottom">Se encuentran en shoping store</p>
+						</div>
+
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+
+					<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+
+
+		<!-- ABOUT -->
+		<section id="about">
+
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+				<!-- CONTAINER -->
+				<div class="container">
+
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Atención</b> al cliente</p>
+								<span>Brindamos asesoramiento y soluciones de calidad</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Ofertas</b></p>
+								<span>Los mejores descuentos en productos para tu gusto</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Experiencia</b></p>
+								<span>En el campo laboral del mercado</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Seguridad</b></p>
+								<span>Ofrecemos seguridad a la hora de comprar</span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+
+			<!-- CLEAN CODE -->
+			<div class="cleancode_block">
+
+
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p class="title"><b>rendimiento</b> y cumplimiento</p>
+							<span>Somos una empresa que brinda soluciones enfocadas en cumplir con las expectativas de calidad de nuestros clientes, apoyados tecnología y un talento humano comprometido con el servicio.</span>
+						</div>
+
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p class="title"><b>Procesos</b></p>
+							<span>Quieres saber cuales son los medios de pago  y que sus procesos  sean totalmente seguros a la hora de comrpar comunicate para brindarte toda la informacion.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p class="title"><b>Información</b></p>
+							<span>Ponte en contacto con nosotros y dejanos ofrecerte el catalogo.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab5">
+							<p class="title"><b>Servicio</b></p>
+							<span>una empresa altamente competitiva enmarcada dentro del comercio Colombiano; con servicio para todas las personas,logrando con nuestros clientes altos niveles de satisfación.</pan>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab6">
+							<p class="title"><b>contactanos</b></p>
+							<span>Llamanos ya compra los mejores productos no esperes más encuentra lo que siempre quiziste tener.</span>
+						</div>
+					</div>
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a class="i1" href="#tab1" data-toggle="tab" ><i></i><span>Rendimiento</span></a></li>
+
+						<li><a class="i3" href="#tab3" data-toggle="tab" ><i></i><span>Procesos</span></a></li>
+						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>Información</span></a></li>
+						<li><a class="i5" href="#tab5" data-toggle="tab" ><i></i><span>Servicio</span></a></li>
+						<li><a class="i6" href="#tab6" data-toggle="tab" ><i></i><span>Contactanos</span></a></li>
+					</ul><!-- CASTOM TAB -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+
+				<!-- CONTAINER -->
+				<div class="container">
+
+					<!-- ROW -->
+					<div class="row">
+
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
+							<h2><b>shoping-store</b> Brinda el mejor servicio</h2>
+							<p>Encontramos una oportuidad para crear una plataforma que facilite el comercio a personas que viven alejadas de los centros urbanos y, a la vez, ayudar a pequeños comercios a distribuir a nivel nacional y competir en igualdad de condiciones con grandes cadenas comerciales.</p>
+							<p>Vimos que por las grandes distancias y la composición geográfica que dificulta la infraestructura y facilitamos la existía una plataforma online alternativa de comercio entre personas.</p>
+							<a class="btn btn-active" href="javascript:void(0);" ><span data-hover="6091929">Llamanos</span></a>
+							<a class="btn" href="javascript:void(0);" >Conoce más</a>
+						</div>
+
+						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
+							<img class="ipad_img1" src="images/img1.png" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+		</section><!-- //ABOUT -->
+
+
+
+		<!-- NEWS -->
+		<section id="news">
+
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Objetivos</b></h2>
+
+
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+
+						<!-- 1 -->
+
+						<div class="item">
+							<div class="testim_content"><h3><b>Visión</b></h3>El objetivo principal de nuestra empresa es ser líder en el área de Televentas, llegando a cada cliente a nivel nacional con un mejor servicio y llevando productos de primera calidad a la comodidad de su casa ofreciendo el mejor servicio y seguridad con pagos por internet.</div>
+
+						</div><!-- TESTIMONIAL1 -->
+
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<div class="testim_content"><h3><b>Misión</b></h3>Nuestra misión es satisfacer las necesidades de nuestros clientes superando sus expectativas, para así Lograr ser la mejor empresa a nivel nacional</div>
+
+						</div><!-- TESTIMONIAL2 -->
+					</div>
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+
+				<!-- RECENT POSTS -->
+				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+
+
+				</div><!-- RECENT POSTS -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+	</div><!-- //PAGE -->
+
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+
+	<!-- FOOTER -->
+	<footer>
+
+		<!-- CONTAINER -->
+		<div class="container">
+
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+					<h4><b>contactenos:</b></h4>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/1.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title">Telefono: 6091929</a>
+							<ul class="post_item_inf_small">
+								<li>Lunes a Viernes horarios de oficina</li>
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/2.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title"  >Correo:j&lshopingstore@hotmail.com</a>
+							<ul class="post_item_inf_small">
+
+							</ul>
+						</div>
+					</div>
+					<div class="recent_posts_small clearfix">
+						<div class="post_item_img_small">
+							<img src="images/blog/3.jpg" alt="" />
+						</div>
+						<div class="post_item_content_small">
+							<a class="title"  >Direccion:carrera 74 #0-79</a>
+							<ul class="post_item_inf_small">
+								<li>Barrio</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>Siguenos</b></h4>
+					<p>para más información siguenos en redes sociales</p>
+					<p>facebook:</p>
+					<p>instagram:</p>
+					<p>twitter:</p>
+					<ul class="social">
+						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="respond_clear"></div>
+
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Escribenos</b></h4>
+
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Nombre') this.value = '';" onBlur="if (this.value == '') this.value = 'Nombre';" />
+								<textarea name="message" onFocus="if (this.value == 'Mensage') this.value = '';" onBlur="if (this.value == '') this.value = 'Mensage';">Mensage</textarea>
+								<input class="contact_btn" type="submit" value="Enviar" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+			<div class="row copyright">
+				<div class="col-lg-12 text-center">
+
+				 <p>DERECHOS RESERVADOS</a></p>
+				</div>
+
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+
+
+	<!-- MAP -->
+	<div id="map">
+		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
+		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
+	</div><!-- //MAP -->
+
+</div>
+</body>
+</html>
